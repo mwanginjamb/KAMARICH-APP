@@ -1,0 +1,31 @@
+{
+  "appId": "com.kamarich.pos",
+  "appName": "Kamarich",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "proxies": [
+    {
+      "path": "/",
+      "proxyUrl": "http://192.168.43.20/",
+      "proxyUrlx": "http://167.86.95.19:6002/"
+    }
+  ],
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "android-minSdkVersion": "19",
+      "BackupWebStorage": "none",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "10000"
+    }
+  }
+}

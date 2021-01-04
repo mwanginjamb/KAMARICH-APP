@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kamarich</string>
+    <string name="title_activity_main">Kamarich</string>
+    <string name="package_name">com.kamarich.pos</string>
+    <string name="custom_url_scheme">com.kamarich.pos</string>
+</resources>
